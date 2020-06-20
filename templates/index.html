@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<form action="/judge" method="POST"  enctype="multipart/form-data">
+    <input type="file" name="image" id="selectedImage">
+    <input type="submit" value="判定する">
+</form>
+
+{% endblock %}
